@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h4,
+p,
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 127, 191);
+    padding: 0;
+    height: 60px;
+}
+
+header img {
+    height: 100%;
+    max-height: 60px;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+}
+
+li a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    height: 100%;
+}
+
+li a:hover {
+    transition: all 0.3s linear;
+    background-color: rgb(141, 236, 236);
+    color: black;
+}
+
+
+.hero {
+    background-image: url(images/background1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero img {
+    width: 270px;
+    padding-bottom: 0px;
+}
+
+.button-link {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    background-color: rgb(249, 143, 210);
+}
+
+button:hover {
+    background-color: #94f2e4;
+}
+
+.about {
+    display: flex;
+    background-image: url(images/background2.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: white;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.howtouse {
+    background-image: url(images/background3.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.steps p {
+    width: 25%;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 25%;
+    border-radius: 20px;
+}
+
+.benefits {
+    background-image: url(images/background5.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: flex-start;
+    padding: 120px 20px;
+}
+
+.image-container {
+    width: 80%;
+    margin-right: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.benefits-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 20px;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.benefits-list li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.benefits-list li::before {
+    content: '•';
+    color: hotpink;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.reviews {
+    background-image: url(images/background4.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 120px 20px;
+}
+
+.reviews h2 {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.review1,
+.review2,
+.review3,
+.review4 {
+    border: 2px solid plum;
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    flex: 1 0 45%;
+    margin: 10px;
+}
+
+.downloadapp {
+    background-image: url(images/background6.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding: 170px 20px;
+    color: black;
+}
+
+footer {
+    background-color: rgba(248, 157, 239, 0.514);
+    padding: 10px 20px;
+    text-align: center;
+}
