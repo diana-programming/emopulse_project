@@ -57,7 +57,7 @@ li a:hover {
 
 
 .hero {
-    background-image: url(images/background1.png);
+    background-image: url(background1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ button:hover {
 
 .about {
     display: flex;
-    background-image: url(images/background2.png);
+    background-image: url(background2.png);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -123,7 +123,7 @@ button:hover {
 }
 
 .howtouse {
-    background-image: url(images/background3.png);
+    background-image: url(background3.png);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -152,7 +152,7 @@ button:hover {
 }
 
 .benefits {
-    background-image: url(images/background5.png);
+    background-image: url(background5.png);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ button:hover {
 }
 
 .reviews {
-    background-image: url(images/background4.png);
+    background-image: url(background4.png);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@ button:hover {
 }
 
 .downloadapp {
-    background-image: url(images/background6.png);
+    background-image: url(background6.png);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
